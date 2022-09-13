@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+html, body{
+    background-color: 	#000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'DynaPuff', cursive;   
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#imgperfil > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#imgperfil{
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(to right, blueviolet, aqua, orangered);
+    border-radius: 50%;
+    padding: 6px;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+    opacity: .6;
+    margin-left: 30px;
+}
+.games{
+    height: 180px;
+    width: 130px;
+    transition: all .5s;
+}
+.games:hover{
+    height: 185px;
+    width: 135px;
+}
+section, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 800px;
+    background:linear-gradient(to right, blueviolet, aqua, orangered);
+    padding-top: 4px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+section > div{
+    background-color: #1C1C1C;
+    margin-top: 5px;
+    width: 800px;
+    border-radius: 10px;
+}
+.streamers{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+main{
+    flex-direction: column;
+}
+.sociais{
+    width: 65px;
+    height: 59px;
+}
