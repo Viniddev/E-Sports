@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 html, body{
-    background-color: 	#000000;
+    background-image: url(./Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    background-color: #121214;
     color: white;
     margin: 0;
     padding: 0;
@@ -49,13 +53,13 @@ p{
     margin-left: 30px;
 }
 .games{
-    height: 180px;
-    width: 130px;
+    height: 130px;
+    width: 90px;
     transition: all .5s;
 }
 .games:hover{
-    height: 185px;
-    width: 135px;
+    height: 135px;
+    width: 95px;
 }
 section, main{
     display: flex;
@@ -63,7 +67,7 @@ section, main{
     justify-content: center;
 }
 section{
-    width: 650px;
+    width: 100%;
     background:linear-gradient(to right, blueviolet, aqua, orangered);
     padding-top: 4px;
     margin-top: 20px;
@@ -78,16 +82,19 @@ section > div{
     box-sizing: border-box;
 }
 .streamers{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 }
 main{
+    margin: 5px auto;
     flex-direction: column;
+    max-width: 540px;
+    width: 90%;
 }
 .sociais{
-    width: 65px;
-    height: 59px;
+    width: 60px;
+    height:50px;
 }
 footer{
     color:white;
