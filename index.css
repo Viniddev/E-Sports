@@ -44,6 +44,7 @@ ul{
     flex-direction: row;
     justify-content: left;
     margin-left: 15px;
+    flex-wrap: wrap;
 }
 h2{
     font-size: 25px;
@@ -62,6 +63,7 @@ p{
     height: 130px;
     width: 90px;
     transition: all .5s;
+    border-radius: 10px;
 }
 .games:hover{
     height: 135px;
