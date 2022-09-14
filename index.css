@@ -87,3 +87,10 @@ main{
     width: 65px;
     height: 59px;
 }
+footer{
+    color:white;
+}
+footer > p{
+    text-align: right;
+    margin-right: 50px;
+}
